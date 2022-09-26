@@ -117,19 +117,6 @@ vendor/lib64/libagm_pcm_plugin.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libagmmixer.so
 
-# Audio firmware
-vendor/firmware/B-cs35l41-dsp1-spk-cali.bin
-vendor/firmware/B-cs35l41-dsp1-spk-prot.bin
-vendor/firmware/B-handfree.txt
-vendor/firmware/B-music.txt
-vendor/firmware/T-cs35l41-dsp1-spk-cali.bin
-vendor/firmware/T-cs35l41-dsp1-spk-prot.bin
-vendor/firmware/T-handfree.txt
-vendor/firmware/T-handset.txt
-vendor/firmware/T-music.txt
-vendor/firmware/cs35l41-dsp1-spk-cali.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
-
 # Audio libraries
 vendor/bin/PalTest
 vendor/etc/models/acd/event.eai
@@ -232,10 +219,6 @@ vendor/etc/top_spk_hp.wav
 # automotive
 vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
-
-# Batterysecret
-vendor/bin/batterysecret
-vendor/etc/init/hw/init.batterysecret.rc
 
 # bgservice
 vendor/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
@@ -1001,41 +984,6 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so
 vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 
-# Camera firmware
-vendor/firmware/CAMERA_ICP.b00
-vendor/firmware/CAMERA_ICP.b01
-vendor/firmware/CAMERA_ICP.b02
-vendor/firmware/CAMERA_ICP.b03
-vendor/firmware/CAMERA_ICP.b04
-vendor/firmware/CAMERA_ICP.b05
-vendor/firmware/CAMERA_ICP.b06
-vendor/firmware/CAMERA_ICP.b07
-vendor/firmware/CAMERA_ICP.b08
-vendor/firmware/CAMERA_ICP.b09
-vendor/firmware/CAMERA_ICP.b10
-vendor/firmware/CAMERA_ICP.b11
-vendor/firmware/CAMERA_ICP.b12
-vendor/firmware/CAMERA_ICP.b13
-vendor/firmware/CAMERA_ICP.b14
-vendor/firmware/CAMERA_ICP.b15
-vendor/firmware/CAMERA_ICP.b16
-vendor/firmware/CAMERA_ICP.b17
-vendor/firmware/CAMERA_ICP.b18
-vendor/firmware/CAMERA_ICP.b19
-vendor/firmware/CAMERA_ICP.b20
-vendor/firmware/CAMERA_ICP.b21
-vendor/firmware/CAMERA_ICP.elf
-vendor/firmware/CAMERA_ICP.mbn
-vendor/firmware/CAMERA_ICP.mdt
-vendor/firmware/CAMERA_ICP_170.elf
-vendor/firmware/CAMERA_ICP_480.elf
-vendor/firmware/cupid_imx766_bu24618_ois.coeff
-vendor/firmware/cupid_imx766_bu24618_ois.mem
-vendor/firmware/cupid_imx766_bu24618_ois.prog
-vendor/firmware/cupid_wide_bu24618_ois.coeff
-vendor/firmware/cupid_wide_bu24618_ois.mem
-vendor/firmware/cupid_wide_bu24618_ois.prog
-
 # Camera test
 vendor/bin/camera_cal
 vendor/bin/cameratest
@@ -1190,39 +1138,6 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-
-# CVP firmware
-vendor/firmware/evass.b00
-vendor/firmware/evass.b01
-vendor/firmware/evass.b02
-vendor/firmware/evass.b03
-vendor/firmware/evass.b04
-vendor/firmware/evass.b05
-vendor/firmware/evass.b06
-vendor/firmware/evass.b07
-vendor/firmware/evass.b08
-vendor/firmware/evass.b09
-vendor/firmware/evass.b10
-vendor/firmware/evass.b11
-vendor/firmware/evass.b12
-vendor/firmware/evass.b13
-vendor/firmware/evass.b14
-vendor/firmware/evass.b15
-vendor/firmware/evass.b16
-vendor/firmware/evass.b17
-vendor/firmware/evass.b18
-vendor/firmware/evass.b19
-vendor/firmware/evass.mbn
-vendor/firmware/evass.mdt
-vendor/firmware/evautil64.b00
-vendor/firmware/evautil64.b01
-vendor/firmware/evautil64.b02
-vendor/firmware/evautil64.b03
-vendor/firmware/evautil64.b04
-vendor/firmware/evautil64.b05
-vendor/firmware/evautil64.b06
-vendor/firmware/evautil64.b07
-vendor/firmware/evautil64.mdt
 
 # DDR
 vendor/etc/init/ddr_training.rc
@@ -1808,24 +1723,6 @@ vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
 
-# Graphics (Adreno firmware)
-vendor/firmware/a660_sqe.fw
-vendor/firmware/a662_gmu.bin
-vendor/firmware/a662_zap.b00
-vendor/firmware/a662_zap.b01
-vendor/firmware/a662_zap.b02
-vendor/firmware/a662_zap.elf
-vendor/firmware/a662_zap.mbn
-vendor/firmware/a662_zap.mdt
-vendor/firmware/a730_sqe.fw
-vendor/firmware/a730_zap.b00
-vendor/firmware/a730_zap.b01
-vendor/firmware/a730_zap.b02
-vendor/firmware/a730_zap.elf
-vendor/firmware/a730_zap.mbn
-vendor/firmware/a730_zap.mdt
-vendor/firmware/gmu_gen70000.bin
-
 # Graphics (Vulkan)
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
@@ -1955,9 +1852,6 @@ vendor/lib64/vendor.qti.ims.rcssip@1.0.so
 vendor/lib64/vendor.qti.ims.rcsuce@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so
-
-# IPA firmware
-vendor/etc/init/ipa_fws.rc
 
 # IR
 vendor/lib/hw/consumerir.taro.so
@@ -2870,9 +2764,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
-# SAR
-vendor/etc/device_sar_config.xml
-
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
@@ -3184,11 +3075,6 @@ vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 
-# Touchscreen
-vendor/firmware/st_fts_l3.ftb
-vendor/firmware/st_fts_l3_thp.ftb
-vendor/firmware/stm_fts_production_limits.csv
-
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
@@ -3243,195 +3129,6 @@ vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/init.qcom.usb.sh
 vendor/etc/init/hw/init.qcom.usb.rc
 
-# Vibrator
-vendor/bin/vib_cal
-vendor/firmware/0_click_P_RTP.bin
-vendor/firmware/101_offlineCountdown_RTP.bin
-vendor/firmware/102_sceneBombInjury_RTP.bin
-vendor/firmware/103_sceneBomb_RTP.bin
-vendor/firmware/104_doorOpen_RTP.bin
-vendor/firmware/106_sceneStep_RTP.bin
-vendor/firmware/107_crawl_RTP.bin
-vendor/firmware/108_scopeOn_RTP.bin
-vendor/firmware/109_scopeOff_RTP.bin
-vendor/firmware/10_ringTone4_RTP.bin
-vendor/firmware/110_magazineQuick_RTP.bin
-vendor/firmware/111_grenade_RTP.bin
-vendor/firmware/112_sceneGetshot_RTP.bin
-vendor/firmware/113_grenadeExplosion_RTP.bin
-vendor/firmware/114_punch_RTP.bin
-vendor/firmware/115_pan_RTP.bin
-vendor/firmware/116_bandage_RTP.bin
-vendor/firmware/118_sceneJump_RTP.bin
-vendor/firmware/119_vehiclePlane_RTP.bin
-vendor/firmware/11_ringTone4_RTP.bin
-vendor/firmware/120_sceneOpenparachute_RTP.bin
-vendor/firmware/121_sceneCloseparachute_RTP.bin
-vendor/firmware/122_vehicleCollision_RTP.bin
-vendor/firmware/123_vehicleBuggy_RTP.bin
-vendor/firmware/124_vehicleDacia_RTP.bin
-vendor/firmware/125_vehicleMoto_RTP.bin
-vendor/firmware/126_firearmsAkm_RTP.bin
-vendor/firmware/127_firearmsM16a4_RTP.bin
-vendor/firmware/128_firearmsAwm_RTP.bin
-vendor/firmware/12_ringTone4_RTP.bin
-vendor/firmware/130_firearmsMini14_RTP.bin
-vendor/firmware/131_firearmsVss_RTP.bin
-vendor/firmware/132_firearmsQbz_RTP.bin
-vendor/firmware/133_firearmsUmp9_RTP.bin
-vendor/firmware/134_firearmsDp28_RTP.bin
-vendor/firmware/135_firearmsS1897_RTP.bin
-vendor/firmware/137_firearmsP18c_RTP.bin
-vendor/firmware/13_ringTone4_RTP.bin
-vendor/firmware/140_cfmKillOne_RTP.bin
-vendor/firmware/141_cfmHeadshot_RTP.bin
-vendor/firmware/142_cfmMultiKill_RTP.bin
-vendor/firmware/143_cfmKillOneStrong_RTP.bin
-vendor/firmware/144_cfmHeadshotStrong_RTP.bin
-vendor/firmware/145_cfmMultiKillStrong_RTP.bin
-vendor/firmware/146_cfmWeaponGrenadeExplode_RTP.bin
-vendor/firmware/147_cfmWeaponGrenadeKillOne_RTP.bin
-vendor/firmware/148_cfmImpactFleshNormal_RTP.bin
-vendor/firmware/149_cfmWeaponC4Installed_RTP.bin
-vendor/firmware/14_ringTone4_RTP.bin
-vendor/firmware/150_cfmHeroAppear_RTP.bin
-vendor/firmware/151_cfmUIRewardOpenBox_RTP.bin
-vendor/firmware/152_cfmUIRewardTask_RTP.bin
-vendor/firmware/153_cfmWeaponBLTShoot_RTP.bin
-vendor/firmware/154_Atlantis_RTP.bin
-vendor/firmware/155_DigitalUniverse_RTP.bin
-vendor/firmware/156_Reveries_RTP.bin
-vendor/firmware/157_fodMotionTriang_RTP.bin
-vendor/firmware/158_fodMotionFlare_RTP.bin
-vendor/firmware/159_fodMotionRipple_RTP.bin
-vendor/firmware/15_ringTone4_RTP.bin
-vendor/firmware/160_fodMotionSpiral_RTP.bin
-vendor/firmware/161_gameboxLaunch_RTP.bin
-vendor/firmware/162_GestureBackPull_RTP.bin
-vendor/firmware/163_GestureBackRelease_RTP.bin
-vendor/firmware/164_alert_RTP.bin
-vendor/firmware/165_feedbackNegativeLight_RTP.bin
-vendor/firmware/166_feedbackNeutral_RTP.bin
-vendor/firmware/167_feedbackPositive_RTP.bin
-vendor/firmware/168_fingerprintRecord_RTP.bin
-vendor/firmware/169_lockdown_RTP.bin
-vendor/firmware/16_ringTone4_RTP.bin
-vendor/firmware/170_slidingDamping_RTP.bin
-vendor/firmware/171_todoAlldone_RTP.bin
-vendor/firmware/172_uninstallAnimationIcon_RTP.bin
-vendor/firmware/173_signalButtonHighlight_RTP.bin
-vendor/firmware/174_signalButtonNegative_RTP.bin
-vendor/firmware/175_signalButton_RTP.bin
-vendor/firmware/176_signalClockHigh_RTP.bin
-vendor/firmware/177_signalClock_RTP.bin
-vendor/firmware/178_signalClockUnit_RTP.bin
-vendor/firmware/179_signalInputbox_RTP.bin
-vendor/firmware/17_ringTone4_RTP.bin
-vendor/firmware/180_signalKeyHigh_RTP.bin
-vendor/firmware/181_signalKeyUnit_RTP.bin
-vendor/firmware/182_signalListHighlight_RTP.bin
-vendor/firmware/183_signalList_RTP.bin
-vendor/firmware/184_signalPicker_RTP.bin
-vendor/firmware/185_signalPopup_RTP.bin
-vendor/firmware/186_signalSeekbar_RTP.bin
-vendor/firmware/187_signalSwitch_RTP.bin
-vendor/firmware/188_signalTab_RTP.bin
-vendor/firmware/189_signalText_RTP.bin
-vendor/firmware/18_ringTone4_RTP.bin
-vendor/firmware/190_signalTransitionLight_RTP.bin
-vendor/firmware/191_signalTransition_RTP.bin
-vendor/firmware/192_hapticsVideo_RTP.bin
-vendor/firmware/19_ringTone4_RTP.bin
-vendor/firmware/1_doubelClick_P_RTP.bin
-vendor/firmware/20_ringTone4_RTP.bin
-vendor/firmware/23_Candy_RTP.bin
-vendor/firmware/24_Carousel_RTP.bin
-vendor/firmware/25_Celesta_RTP.bin
-vendor/firmware/26_Childhood_RTP.bin
-vendor/firmware/27_Country_RTP.bin
-vendor/firmware/28_Cowboy_RTP.bin
-vendor/firmware/2_tick_P_RTP.bin
-vendor/firmware/30_Fairyland_RTP.bin
-vendor/firmware/31_Fantasy_RTP.bin
-vendor/firmware/32_FieldTrip_RTP.bin
-vendor/firmware/33_Glee_RTP.bin
-vendor/firmware/35_IceLatte_RTP.bin
-vendor/firmware/36_KungFu_RTP.bin
-vendor/firmware/38_Lollipop_RTP.bin
-vendor/firmware/39_MiMix2_RTP.bin
-vendor/firmware/3_thud_P_RTP.bin
-vendor/firmware/40_Mi_RTP.bin
-vendor/firmware/41_MiHouse_RTP.bin
-vendor/firmware/42_MiJazz_RTP.bin
-vendor/firmware/43_MiRemix_RTP.bin
-vendor/firmware/44_MountainSpring_RTP.bin
-vendor/firmware/45_Orange_RTP.bin
-vendor/firmware/46_WindChime_RTP.bin
-vendor/firmware/47_SpaceAge_RTP.bin
-vendor/firmware/48_ToyRobot_RTP.bin
-vendor/firmware/49_Vigor_RTP.bin
-vendor/firmware/4_pop_P_RTP.bin
-vendor/firmware/50_Bottle_RTP.bin
-vendor/firmware/51_Bubble_RTP.bin
-vendor/firmware/521_AcousticGuitar_RTP.bin
-vendor/firmware/52_Bullfrog_RTP.bin
-vendor/firmware/53_Burst_RTP.bin
-vendor/firmware/54_Chirp_RTP.bin
-vendor/firmware/55_Clank_RTP.bin
-vendor/firmware/56_Crystal_RTP.bin
-vendor/firmware/57_FadeIn_RTP.bin
-vendor/firmware/58_FadeOut_RTP.bin
-vendor/firmware/59_Flute_RTP.bin
-vendor/firmware/5_heavyClick_P_RTP.bin
-vendor/firmware/60_Fresh_RTP.bin
-vendor/firmware/61_Frog_RTP.bin
-vendor/firmware/62_Guitar_RTP.bin
-vendor/firmware/63_Harp_RTP.bin
-vendor/firmware/64_IncomingMessage_RTP.bin
-vendor/firmware/65_MessageSent_RTP.bin
-vendor/firmware/66_Moment_RTP.bin
-vendor/firmware/67_NotificationXylophone_RTP.bin
-vendor/firmware/68_Potion_RTP.bin
-vendor/firmware/69_Radar_RTP.bin
-vendor/firmware/6_ringTone1_P_RTP.bin
-vendor/firmware/70_Spring_RTP.bin
-vendor/firmware/71_Swoosh_RTP.bin
-vendor/firmware/72_GestureUpSlide_RTP.bin
-vendor/firmware/73_fodMotionPlanet_RTP.bin
-vendor/firmware/74_ChargeWire_RTP.bin
-vendor/firmware/75_ChargeWireless_RTP.bin
-vendor/firmware/76_UnlockFailed_RTP.bin
-vendor/firmware/77_fodMotion1_RTP.bin
-vendor/firmware/78_fodMotion2_RTP.bin
-vendor/firmware/79_fodMotion3_RTP.bin
-vendor/firmware/7_ringTone2_P_RTP.bin
-vendor/firmware/80_fodMotion4_RTP.bin
-vendor/firmware/81_fodMotionAurora_RTP.bin
-vendor/firmware/82_FaceIDWrong2_RTP.bin
-vendor/firmware/83_uninstallAnimation_RTP.bin
-vendor/firmware/84_uninstallDialog_RTP.bin
-vendor/firmware/85_screenshot_RTP.bin
-vendor/firmware/86_lockscreenCameraEntry_RTP.bin
-vendor/firmware/87_launcherEdit_RTP.bin
-vendor/firmware/88_launcherIconSelection_RTP.bin
-vendor/firmware/8_ringTone3_P_RTP.bin
-vendor/firmware/90_taskCleanAll_Rtp.bin
-vendor/firmware/91_newIconFolder_RTP.bin
-vendor/firmware/92_notificationRemove_RTP.bin
-vendor/firmware/93_notificationCleanall_RTP.bin
-vendor/firmware/96_nfcCard_RTP.bin
-vendor/firmware/98_nfcCardSlow_RTP.bin
-vendor/firmware/9_ringTone4_P_RTP.bin
-vendor/firmware/aw8697_haptic.bin
-vendor/lib64/libaachaptics.so
-
-# Virtual SIM
-vendor/bin/vsimd
-vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
-vendor/lib/libvsim.so
-vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
-
 # vmmem
 vendor/lib/libvmmem.so
 vendor/lib64/libvmmem.so
@@ -3477,25 +3174,6 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
-
-# VPU firmware
-vendor/firmware/vpu20_2v.mbn
-vendor/firmware/vpu20_2v_unsigned.mbn
-vendor/firmware/vpu20_4v.b00
-vendor/firmware/vpu20_4v.b01
-vendor/firmware/vpu20_4v.b02
-vendor/firmware/vpu20_4v.b03
-vendor/firmware/vpu20_4v.b04
-vendor/firmware/vpu20_4v.b05
-vendor/firmware/vpu20_4v.b06
-vendor/firmware/vpu20_4v.b07
-vendor/firmware/vpu20_4v.b08
-vendor/firmware/vpu20_4v.b09
-vendor/firmware/vpu20_4v.b18
-vendor/firmware/vpu20_4v.b19
-vendor/firmware/vpu20_4v.mbn
-vendor/firmware/vpu20_4v.mdt
-vendor/firmware/vpu20_4v_unsigned.mbn
 
 # Widevine DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine

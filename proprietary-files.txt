@@ -1518,12 +1518,9 @@ vendor/etc/init/ffu.rc
 vendor/app/goodix_sz/goodix_sz.apk
 vendor/etc/init/init.mfp-daemon.rc
 vendor/etc/permissions/qti_fingerprint_interface.xml
--vendor/etc/vintf/manifest/fod.xml
-vendor/lib/hw/fingerprint.goodix_fod.so:vendor/lib/hw/fingerprint.goodix_fod.default.so
 vendor/lib/libgf_hal.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
 vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so

@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from the proprietary version
-include vendor/xiaomi/sm8450-common/BoardConfigVendor.mk
-
 COMMON_PATH := device/xiaomi/sm8450-common
 
 BUILD_BROKEN_DUP_RULES := true
@@ -84,11 +81,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/lineage/config/device_framework_matrix.xml
 
 # Kernel
-include $(COMMON_PATH)/kernel/kernel-platform-board.mk
-
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_FILTER := $(KERNEL_PREBUILT_DIR)/vendor_dlkm/qca6490.ko
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := \
-    $(filter-out $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_FILTER),$(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD))
+include device/xiaomi/ingres-kernel/BoardConfigKernel.mk
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_RAMDISK_USE_LZ4 := true
@@ -113,11 +106,6 @@ BOARD_BOOTCONFIG := \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
     androidboot.selinux=permissive
-
-TARGET_PREBUILT_KERNEL := $(KERNEL_PREBUILT_DIR)/Image
-TARGET_FORCE_PREBUILT_KERNEL := true
-
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8450
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
